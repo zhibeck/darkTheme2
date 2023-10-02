@@ -1,0 +1,24 @@
+:root {
+  --bg-color: white;
+  --text-color: black;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 30px;
+  background-color: lightgrey;
+}
+
+.content {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+}
